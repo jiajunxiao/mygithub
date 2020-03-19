@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584418717541.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5160B1C0",
+    "lastKnownWriteTime" : 1584607158,
+    "last_content_update" : 1584607800595,
+    "path" : "E:/Rstudio工程/Test/test.R",
+    "project_path" : "test.R",
+    "properties" : {
+        "cursorPosition" : "8,11",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}
