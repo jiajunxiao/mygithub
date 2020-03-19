@@ -41,7 +41,7 @@ for k=1:p %交叉验证k=10，10个包轮流作为测试集
     cop=[s(:,1) group_test];
     Score=[Score;cop];
     
-    %自带绘制ROC曲线
+    %自带绘制ROC
     figure;
     plotroc(group_test',s(:,1)');
 %     com_score=[PredictLabel s(:,1)];
@@ -214,7 +214,6 @@ act_PRE=sum(PREC_V)/p;
 act_REC=sum(REC_V)/p;
 act_F1=sum(actF1_V)/p;
 act_AUC=sum(AUC_V)/p;
-%导出数据
 dlmwrite('svm_score.txt', Score, ' ');
 
 function [xzero,yzero,y]=EERpoint(x,y1,y2)
